@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "intent": "Greeting",
+      "text": [
+        "Hi ",
+        "Hi there",
+        "Hola",
+        "Hello",
+        "Hello there",
+        "Hey",
+        "Hey there"
+      ],
+      "responses": [
+        "Hi 👋, am Bot, what is your name?",
+        "Hello 👋, how are you?",
+        "Hey 😊 how are you doing",
+        "Hola 👋",
+        "Hello there 👋"
+      ]
+    },
+    {
+      "intent": "name",
+      "text": [
+        "I am",
+        "Am",
+        "My name is",
+        "I go by the name",
+        "Am identifed as",
+        "I am called",
+        "my official name is"
+      ],
+      "responses": [
+        "Nice to meet you {} 😊",
+        "Glad to finally meet you 😊, how may I help you {}?",
+        "Welcome {} 😊, how can I help you?",
+        "Thank you {} for contacting me 😊, how can I help you",
+        "Welcome to Lancolatech 😊, how may I help you {}"
+      ]
+    },
+    {
+      "intent": "issues",
+      "text": [
+        "Accounting balance issues as communicated ealier",
+        "Debts clearance, Calculation of debts, System value is less",
+        "Large space on top of the receipts",
+        "No longer using the system",
+        "Proforma invoice and Credit note issue to be sorted out as communicated"
+      ],
+      "responses":
+      [
+        "Please contact +2547 for more information",
+        "We are sorry, please describe your issue",
+        "Sorry for the issue, please contact +2547 for help"
+      ]
+    },
+    {
+      "intent": "appreciation",
+      "text": [
+        "I love to work with lancolatech",
+        "The best IT solutions",
+        "The best web development comapny",
+        "Had the best experience working with Lancolatech"
+      ],
+      "responses": [
+        "Woow 😊, thank you so much we really appreciate your loyalty",
+        "We really appreciate having you as our client 😊.",
+        "We are prouldy here to serve you as our client 😊",
+        "Thank you 😊, our aim is to satisfy our clients, glad to here you were well served",
+        "We appreciate for choosing us 😊, cheers"
+      ]
+    },
+    {
+      "intent": "information",
+      "text": [
+        "What is Lancolatech",
+        "What services do you offer",
+        "What is your location",
+        "Where are you located"
+      ],
+      "responses": [
+        "We are an IT company located in Eldoret dealing in a range of products",
+        "We are an IT company based in Eldoret, dealing in a range of products visit https://lancolatech.co.ke/ for more information",
+        "We are located in Eldoret, Grand Pri 3rd Floor Room 301"
+      ]
+    },
+    {
+      "intent": "requests",
+      "text": [
+        "I need a website",
+        "I need someone to trouble shoot my computer",
+        "I need to purchase",
+        "I need someone to install my network",
+        "I have a problem with my network",
+        "I have a problem with my computer",
+        "I need to install CCTV"
+      ],
+      "responses": [
+        "Thank you for requesting our help 😊, we deal in a range of products including: \n 1. Web development \n 2. Structured Cabling and Networking. \n 3. Management Systems. \n 4. POS systems.",
+        "Please contact +254.. for more information. Welcome back 😊"
+      ]
+    }
+  ]
+}
